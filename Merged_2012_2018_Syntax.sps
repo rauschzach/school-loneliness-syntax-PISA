@@ -1,4 +1,5 @@
-﻿* Encoding: UTF-8.
+* This file provides the info for all variable recoding. 
+* Encoding: UTF-8.
 * Create the "sex_2_way" variable based on the "sex" variable.
 RECODE sex (1 = 1) (2 = 2) (ELSE = SYSMIS) INTO sex_2_way.
 
